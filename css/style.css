@@ -233,9 +233,11 @@ a.btn-send:hover {
 	border:rgba(248, 248, 248, 0);
 	padding:5px 5px;
 }
-a.navbar-brand img {
+a.navbar-brand b {
 	position:relative;
 	top:9px;
+	color: #ffffff;
+	max-height: 500px;
 }
 #menu {
 	position:absolute;
