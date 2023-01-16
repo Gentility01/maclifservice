@@ -904,11 +904,13 @@
           </ul>
         </div>
         <div class="col-md-6 col-sm-6">
-          <form id="main-contact-form" name="contact-form" method="post" action="mailto:mastergentility5@gmail.com" enctype="text/plain">
+          <form id="main-contact-form" name="contact-form" action="https://formsubmit.co/mastergentility5@gmail.com" method="POST">
+<!--              -->
+
             <div class="row  wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
               <div class="col-sm-6">
                 <div class="form-group">
-                  <input type="text" name="name" class="form-control" placeholder="Name" required="required">
+                  <input type="text" name="name"  class="form-control" placeholder="Name" required="required">
                 </div>
               </div>
               <div class="col-sm-6">
@@ -918,14 +920,17 @@
               </div>
             </div>
             <div class="form-group">
+              <input type="text" name="phone" class="form-control" placeholder="Phone" required="required">
+            </div>
+            <div class="form-group">
               <input type="text" name="subject" class="form-control" placeholder="Subject" required="required">
             </div>
             <div class="form-group">
-              <textarea name="message" id="message" class="form-control" rows="4" placeholder="Enter your message"
+              <textarea name="message" name="message" class="form-control" rows="4" placeholder="Enter your message"
                 required="required"></textarea>
             </div>
             <!-- <a class="btn-send col-md-12 col-sm-12 col-xs-12" href="#">Send Now</a> -->
-            <input type="submit" class="btn-send col-md-12 col-sm-12 col-xs-12" value="Send Now">
+            <button type="submit" class="btn-send btn btn-primary col-md-12 col-sm-12 col-xs-12">Send Now</button>
           </form>
         </div>
       </div>
@@ -972,6 +977,8 @@
   <script type="text/javascript" src="js/owl.carousel.js"></script>
   <!--Main-Scripts-->
   <script type="text/javascript" src="js/script.js"></script>
+
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
 </body>
 
 </html>

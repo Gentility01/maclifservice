@@ -302,4 +302,20 @@ $('#slider-parallax').stellar();
   });
  
 });
+
+
+// Sending mail functions
+// function sendMail(){
+//     Email.send({
+//       Host : "smtp.gmail.com",
+//       Username : "mastergentility5@gmail.com",
+//       Password : "hqsvzzymaxvtetku",
+//       To : 'mastergentility5@gmail.com',
+//       From : document.getElementById("email").value,
+//       Subject : "This is the subject",
+//       Body : "And this is the body"
+//   }).then(
+//     message => alert(message)
+//   );
+// }
 	
